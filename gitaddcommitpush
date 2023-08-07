@@ -1,2 +1,2 @@
 #!/bin/bash
-ls . | git add . | git commit -m '0x09-static_libraries' |  git push
+ls . | git add . | git commit -m  '0x0B-malloc_free' |  git push
