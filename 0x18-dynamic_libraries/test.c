@@ -1,11 +1,28 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-
-int printf(const char *format, ...)
+int add(int a, int b)
 {
-	write(1, "9 8 10 24 75 - 9\n",17);
-	write(1, "congratulaions, you won the Jackpot!\n", 38);
-	exit(EXIT_SUCCESS);
+	return (a + b);
+}
 
+int sub(int a, int b)
+{
+	return (a - b);
+}
+
+int mul(int a, int b)
+{
+	return(a * b);
+}
+
+int div(int a, int b)
+{
+	if (b != 0)
+		return (a / b);
+	return (0);
+}
+
+int mod(int a, int b)
+{
+	if (b != 0)
+		return (a % b);
+	return (0);
 }
